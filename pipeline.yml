@@ -1,0 +1,19 @@
+
+name: Machine Learning Pipeline
+
+steps:
+ - data_cleaning
+ - data_overview
+ - univariate_analysis
+ - bivariate_analysis
+ - multivariate_analysis
+ - feature_engineering
+ - train_test_split
+ - model_selection
+ - model_training
+ - hyperparameter_tuning
+ - model_evaluation
+ - model_saving
+ - model_registration
+ - deployment
+ - monitoring

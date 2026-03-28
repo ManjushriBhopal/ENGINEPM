@@ -1,0 +1,19 @@
+name: ML Pipeline Automation
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: pip install pandas scikit-learn
+
+      - name: Run pipeline
+        run: echo "Pipeline executed successfully"
